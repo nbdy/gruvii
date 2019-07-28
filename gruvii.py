@@ -253,7 +253,7 @@ class Trainer(object):
         model = tf.keras.models.Sequential([
             tf.keras.layers.TimeDistributed(tf.keras.layers.Dense(frq_space_dims)),
             tf.keras.layers.LSTM(self.config.hidden_dimensions, return_sequences=True),
-            tf.keras.layers.TimeDistributed(tf.keras.layers.Dense(self.config.hidden_dimensions))
+            tf.keras.layers.TimeDistributed(tf.keras.layers.Dense(frq_space_dims))
         ])
         print("compiling model")
         model.compile(loss="mean_squared_error", optimizer="rmsprop")
