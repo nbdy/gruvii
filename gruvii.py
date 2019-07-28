@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from sys import argv
 from os.path import isdir, exists
 from os import listdir, makedirs, system
@@ -30,12 +32,12 @@ class Configuration(object):
         print("{arguments}\t\t{default value}")
         print("\t--help")
         print("\t-d\t--dataset-directory\t./dataset/test/")
-        print("\t-i\t--iterations\t50")
+        print("\t-i\t--iterations\t\t50")
         print("\t-s\t--sampling-frequency\t44100")
-        print("\t-c\t--clip-length\t10")
+        print("\t-c\t--clip-length\t\t10")
         print("\t-h\t--hidden-dimensions\t1024")
-        print("\t-b\t--batch-size\t5")
-        print("\t-e\t--epochs\t25")
+        print("\t-b\t--batch-size\t\t5")
+        print("\t-e\t--epochs\t\t25")
         exit()
 
     @staticmethod
