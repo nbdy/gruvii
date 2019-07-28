@@ -29,7 +29,7 @@ class Configuration(object):
     @staticmethod
     def help():
         print("usage: gruvii.py {arguments}")
-        print("{arguments}\t\t{default value}")
+        print("{arguments}\t\t\t\t{default value}")
         print("\t--help")
         print("\t-d\t--dataset-directory\t./dataset/test/")
         print("\t-i\t--iterations\t\t50")
