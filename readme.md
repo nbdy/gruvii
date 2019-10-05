@@ -1,4 +1,6 @@
 ## gruvii
+[![Build Status](http://build.eberlein.io:8080/job/gruvii/badge/icon)](http://build.eberlein.io:8080/job/gruvii/)<br>
+
 [GRUV](https://github.com/smthnspcl/GRUV) v2
 ### why
 original version was depended on keras 0.1.0<br>
