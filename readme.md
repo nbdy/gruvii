@@ -1,5 +1,5 @@
 ## gruvii
-[![Build Status](http://build.eberlein.io:8080/job/gruvii/badge/icon)](http://build.eberlein.io:8080/job/gruvii/)<br>
+[![Build Status](http://build.eberlein.io:8080/job/python_gruvii/badge/icon)](http://build.eberlein.io:8080/job/python_gruvii/)<br>
 
 [GRUV](https://github.com/smthnspcl/GRUV) v2
 ### why
