@@ -1,7 +1,7 @@
 ## gruvii
 [![Build Status](http://build.eberlein.io:8080/job/python_gruvii/badge/icon)](http://build.eberlein.io:8080/job/python_gruvii/)<br>
 
-[GRUV](https://github.com/smthnspcl/GRUV) v2
+[GRUV](https://github.com/nbdy/GRUV) v2
 ### why
 original version was depended on keras 0.1.0<br>
 this uses tensorflow v2
